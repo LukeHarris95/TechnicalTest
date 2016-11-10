@@ -1,7 +1,6 @@
 {
   "name": "luke_harris",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server"
@@ -9,7 +8,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.3.2",    "react-bootstrap": "^0.30.6",
+    "firebase": "^3.6.0",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.6",
     "react-dom": "^15.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://lukeharris95@github.com/LukeHarris95/TechnicalTest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LukeHarris95/TechnicalTest/issues"
+  },
+  "homepage": "https://github.com/LukeHarris95/TechnicalTest#readme",
+  "description": ""
 }
