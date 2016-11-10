@@ -1,7 +1,19 @@
 import React from 'react';
-import {Form, FormGroup, FormControl, ControlLabel, Button} from "react-bootstrap";
+import {Form, FormGroup, FormControl, ControlLabel, Button, Alert} from "react-bootstrap";
 
-export default class Home extends React.Component {
+export default class SignUp extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            email: ""
+        };
+    }
+    updateEmail(e) {
+        this.setState({email: e.target.value});
+    }
+    signUpUser(event) {
+        this.setState({email: ""});
+    }
     render() {
         return (
             <div>
@@ -12,10 +24,10 @@ export default class Home extends React.Component {
                     <div className="FormAlign">
                         <FormGroup>
                             <ControlLabel>Email</ControlLabel>
-                            <FormControl type="text" placeholder="Enter email"/>
+                            <FormControl type="text" placeholder="Enter email" value={this.state.email} onChange={this.updateEmail.bind(this)} ref={(input) => this.textInput = input}/>
                         </FormGroup>
                         <div className="ButtonAlign">
-                            <Button type="button">Submit</Button>
+                            <Button type="button" onClick={this.signUpUser.bind(this)}>Submit</Button>
                         </div>
                     </div>
                 </div>
