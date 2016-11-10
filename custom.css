@@ -1,0 +1,155 @@
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    background: #9DC3E6;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: black;
+    transition: 3;
+    text-decoration: underline white;
+    outline:0 none !important;
+}
+
+body {
+    color: black;
+    font: bold 18px Gill Sans MT;
+}
+
+.navbar {
+    background-color: #9DC3E6;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.container {
+    margin-left: 0px;
+    padding-left: 62px;
+}
+
+.navbar-default {
+    border-color: transparent;
+    border: 1px solid white;
+}
+
+.MenuBackground {
+    background-image: url("menuBackground.jpg");
+    background-size: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+	height:92px; 
+	width:100%;
+    margin-bottom: 92px;
+    z-index: 1;
+}
+
+.HomeStyle {
+    background-color: #9DC3E6;
+    height: 500px;
+    margin-top: 91px;
+}
+
+.AboutStyle {
+    background-color: #2E75B6;
+    height: 500px;
+}
+
+.SignUpStyle {
+    background-color: #9DC3E6;
+    height: 720px;
+}
+
+.FooterStyle {
+    background-color: #2E75B6;
+    text-align: center;
+    padding: 30px;
+}
+
+.FooterStyle > a {
+    font: bold 14px Gill Sans MT;
+    margin: 30px;
+}
+
+a, a:focus {
+    color: black;
+    outline:0 none !important;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline white;
+    transition: 0.5s;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+    color: black;
+    font: bold 25px Gill Sans MT;
+    text-decoration: underline white;
+    padding-left: 80px;
+}
+
+.MainPage {
+    background-color: #2E75B6;
+}
+
+.PagePadding {
+    position :relative;
+    background: red;
+    top: -91px;
+}
+
+.BorderSeparator {
+    border-top: 2px black solid;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+html {
+    background-color: #2E75B6;
+}
+
+.ButtonAlign {
+    width: 400px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.FormAlign {
+    padding-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.form-control {
+    color: black;
+    width: 400px;
+}
+
+.btn:active:focus {
+    transition: 0s;
+    outline:0 none;
+    color: white;
+    background-color: black;
+    border: 1px solid white
+}
+
+.btn-default, .btn-default:focus {
+    padding: 10px;
+    outline:0 none;
+    text-align: center;
+    color: black;
+    font: bold 18px Gill Sans MT;
+    background: #2E75B6;
+    border: 1px solid white
+}
+
+.btn:hover {
+    color: white;
+    transition: 0.5s;
+    background-color: #2E75B6;
+    border: 1px solid white
+}
